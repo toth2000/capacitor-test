@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ThemeInterface } from "../../interface/theme";
+import { Icon } from '@iconify/react';
 
 interface ItemContainerInterface {
   active: boolean;
@@ -32,7 +33,7 @@ export const ItemTitle = styled.h1<{ theme: ThemeInterface }>`
   font-size: 12px;
 `;
 
-export const ItemIcon = styled.img<{ theme: ThemeInterface }>`
-  width: 24px;
-  height: 24px;
+export const ItemIcon = styled(Icon)<{ theme: ThemeInterface }>`
+  width: 28px;
+  height: 26px;
 `;

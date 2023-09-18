@@ -31,7 +31,7 @@ const BottomMenu = () => {
           active={item.active}
           onClick={() => handleUpdateMenu(item.id)}
         >
-          <ItemIcon src={item.icon} />
+          <ItemIcon icon={item.icon} />
           <ItemTitle>{item.name}</ItemTitle>
         </ItemContainer>
       ))}
