@@ -1,4 +1,8 @@
-import { DashboardHeaderOffers, OfferScrollList } from "../interface/offers";
+import {
+  DashboardHeaderOffers,
+  OfferScrollList,
+  OfferScrollListBig,
+} from "../interface/offers";
 
 export const dashboardOffers: DashboardHeaderOffers[] = [
   {
@@ -56,5 +60,22 @@ export const scrollListOffers: OfferScrollList[] = [
     description: "get cashback upto $1",
     image: "https://picsum.photos/70/70",
     borderColor: "#f9283f",
+  },
+];
+
+export const scrollListOffersBig: OfferScrollListBig[] = [
+  {
+    id: "jawd009k",
+    title: "Reserved for you",
+    image: "https://picsum.photos/718/512",
+    buttonTitle: "Know More",
+    buttonLink: "https://www.amazon.in/",
+  },
+  {
+    id: "jawd0009099k",
+    title: "Streaming on Periscope",
+    image: "https://picsum.photos/718/512",
+    buttonTitle: "Know More",
+    buttonLink: "https://www.amazon.in/",
   },
 ];

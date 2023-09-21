@@ -11,3 +11,11 @@ export interface OfferScrollList {
   image: string;
   borderColor: string;
 }
+
+export interface OfferScrollListBig {
+  id: string;
+  image: string;
+  title: string;
+  buttonTitle: string;
+  buttonLink: string;
+}
