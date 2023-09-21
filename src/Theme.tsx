@@ -9,6 +9,7 @@ const Theme = ({ children }: { children: any }) => {
       thrid: "#EEE0C9",
       fourth: "#fff",
       alternate: "#F1F0E8",
+      black: "#000",
     },
     breakpoints: {
       mobile: "360px",

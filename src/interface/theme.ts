@@ -5,6 +5,7 @@ export interface ThemeInterface {
     thrid: string;
     fourth: string;
     alternate: string;
+    black: string;
   };
   breakpoints: {
     mobile: string;
