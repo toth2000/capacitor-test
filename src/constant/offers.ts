@@ -1,4 +1,4 @@
-import { DashboardHeaderOffers } from "../interface/offers";
+import { DashboardHeaderOffers, OfferScrollList } from "../interface/offers";
 
 export const dashboardOffers: DashboardHeaderOffers[] = [
   {
@@ -25,5 +25,36 @@ export const dashboardOffers: DashboardHeaderOffers[] = [
     name: "Applo",
     id: "i0aw98djlkasd09",
     image: "skill-icons:apollo",
+  },
+];
+
+export const scrollListOffers: OfferScrollList[] = [
+  {
+    id: "1930290",
+    title: "utility",
+    description: "get cashback upto $1",
+    image: "https://picsum.photos/70/70",
+    borderColor: "#25853f",
+  },
+  {
+    id: "8937498234",
+    title: "utility",
+    description: "win cashback upto $50 on paying utility bills",
+    image: "https://picsum.photos/70/70",
+    borderColor: "#3d08cf",
+  },
+  {
+    id: "8937498234",
+    title: "utility",
+    description: "win cashback upto $50 on paying utility bills",
+    image: "https://picsum.photos/70/70",
+    borderColor: "#3dcf",
+  },
+  {
+    id: "1930290",
+    title: "utility",
+    description: "get cashback upto $1",
+    image: "https://picsum.photos/70/70",
+    borderColor: "#f9283f",
   },
 ];
