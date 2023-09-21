@@ -5,12 +5,14 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import { Container, BottomMenuWrapper, NavBarWrapper } from "./style";
 import Analytics from "./pages/Analytics";
+import DashboardHeader from "./components/DashboardHeader";
+import { dashboardOffers } from "./constant/offers";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Theme>
-        <Container>
+        {/* <Container>
           <NavBarWrapper>
             <Navbar />
           </NavBarWrapper>
@@ -21,7 +23,12 @@ const App = () => {
           <BottomMenuWrapper>
             <BottomMenu />
           </BottomMenuWrapper>
-        </Container>
+        </Container> */}
+        <DashboardHeader
+          leftIcon="ph:meta-logo-bold"
+          rightIcon="ic:outline-settings"
+          offers={dashboardOffers}
+        />
       </Theme>
     </BrowserRouter>
   );
