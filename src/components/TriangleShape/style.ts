@@ -8,6 +8,11 @@ interface ContainerInterface {
   theme: ThemeInterface;
 }
 
+interface WrapperInterface {
+  color: string;
+  theme: ThemeInterface;
+}
+
 export const Container = styled.div<ContainerInterface>`
   width: 0;
   height: 0;
@@ -18,8 +23,7 @@ export const Container = styled.div<ContainerInterface>`
   border-bottom: 150px solid transparent;
 `;
 
-export const Wrapper = styled.div`
-  width: 100wh;
-  height: 20px;
-  background-color: red;
+export const Wrapper = styled.div<WrapperInterface>`
+  background-color: ${({ color }) => color};
+  margin: 0;
 `;
